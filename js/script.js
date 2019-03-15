@@ -1,3 +1,5 @@
+const button = document.querySelector('button');
+
 // An array of Objects with the quote and source as properties
 const quotes = [
     {
@@ -53,11 +55,41 @@ function printQuote() {
      
     `;
     document.getElementById('quote-box').innerHTML = message;
+    document.body.style.backgroundColor = colors(); //changes the background color randomly using colors() function
     
 }
+
+//function to change color of background
+function colors() {
+    let colorArray = [];    
+  
+    for(let i =0; i < 3 ; i++){
+      colorArray.push(Math.floor(Math.random() * (255 - 0) + 0));
+    }
+    // rgb -> hex
+    let color = colorArray
+      .map( x => x.toString(16))
+      .join('');
+  
+    return `#${color}`;
+  }
+
+    
+    setInterval(printQuote, 30000);
+    
+   
+  
+  
 
 
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 
+
+//event listener to change background color of the page
+button.addEventListener('click', () => {
+    document.body.style.backgroundColor = colors();
+});
+  
+  
