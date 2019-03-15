@@ -1,5 +1,5 @@
 # Random-Quote-Generator-Project
-This app displays a random quotes automatically or by clicking on a button.
+This app displays a random quotes in movies by clicking on a button.
 
 ## Project Requirements
 * Array of objects is named quotes
