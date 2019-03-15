@@ -1,7 +1,7 @@
 # Random-Quote-Generator-Project
 
 This app displays a random movie quotes automatically or by clicking on a button.
-Thw background of the page also changes on click or automatically when a new quote is shown every 30 Seconds
+The background of the page also changes on click or automatically when a new quote is shown every 30 Seconds
 
 
 
