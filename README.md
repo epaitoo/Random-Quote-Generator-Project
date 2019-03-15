@@ -1,9 +1,9 @@
 # Random-Quote-Generator-Project
-<<<<<<< HEAD
+
 This app displays a random movie quotes automatically or by clicking on a button.
-=======
-This app displays a random quotes in movies by clicking on a button.
->>>>>>> b4dcb6b290e82fe35b01e00e199b2298479c00a1
+Thw background of the page also changes on click or automatically when a new quote is shown every 30 Seconds
+
+
 
 ## Project Requirements
 * Array of objects is named quotes
