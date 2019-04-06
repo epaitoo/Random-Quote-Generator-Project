@@ -1,5 +1,7 @@
 # Random-Quote-Generator-Project
 
+View demo [here](https://epaitoo.github.io/random-quote-generator/)
+
 This app displays a random movie quotes automatically or by clicking on a button.
 The background of the page also changes on click or automatically when a new quote is shown every 30 Seconds
 
